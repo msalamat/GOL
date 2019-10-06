@@ -1,0 +1,40 @@
+#b1 {
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    /*-fx-text-fill: linear-gradient(white, #d0d0d0);*/
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+
+}
+
+#b1 {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+#b1:pressed:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+    -fx-font-size: 12px;
+
+}
+
+#b1:hover {
+    -fx-background-color: #383838;
+    -fx-scale-y: 1.1;
+    -fx-font-size: 12px;
+}
+
+#b2 {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+    -fx-shape: "M 4.9956,3L 19.0076,3L 20.7359,5.99339L 20.7304,5.99653C 20.9018,6.29149 21,6.63428 21,7L 21,19C 21,20.1046 20.1046,21 19,21L 5,21C 3.89543,21 3,20.1046 3,19L 3,7C 3,6.638 3.09618,6.29846 3.26437,6.00554L 3.26135,6.0038L 4.9956,3 Z M 5.57294,4.00001L 4.99559,5.00001L 5,5.00001L 19.0076,5.00002L 18.4303,4.00001L 5.57294,4.00001 Z M 7,15L 10,15L 10,17L 14,17L 14,15L 17,15L 12,10L 7,15 Z";
+}
