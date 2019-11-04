@@ -1,7 +1,7 @@
 # Game of Life
 
 ### How to run
-Put all the files in a single directory, like:
+Put all the files in a single directory, like in here:
 
 `$momo/Desktop/GOL`
 
@@ -16,13 +16,9 @@ then run:
 
 Don't forget to click to progress to the next state!
 
-### Notes
-*  Made a quick change to the assignment to make herbivores target plants..it's not 
-  in the assignment requirements.. but apparently that's what the lab instructor said?
-  Not sure if I was supposed to change just herbivores or all so I just picked one,
-  but logic to change other ones are similar if needed. Really unclear, but Dennis
-  before told me that's the game logic which doesn't matter, it's more the design. Anyways..
+> Note: Compiles fine with Java 8 and 9. Untested for other versions of Java.
 
+### Notes
 * Two buttons are there. You can save the current state and also load one. 
   You can also save multiple versions, and they will have unique filenames.
 
@@ -30,7 +26,7 @@ Don't forget to click to progress to the next state!
   open to the /loads folder. You can't select any other extension other than
   .ser so in a way it is safe.
 
-* saved data is made in a folder called loads. If you don't have one,
+* Saved data is made in a folder called loads. If you don't have one,
   the program will make one for you.
 
 * I put the bulk of the action in a method called `act()`. This method
